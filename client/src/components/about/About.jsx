@@ -25,28 +25,18 @@ const About = () => {
 
     return (
         <Box>
-            <Banner/>
+            <Banner />
             <Wrapper>
-                <Typography variant="h3">Code for Interview</Typography>
-                <Text variant="h5">I'm a Software Engineer based in India. 
-                    I've built websites, desktop applications and corporate software.<br />
-                    If you are interested, you can view some of my favorite projects here
-                    <Box component="span" style={{ marginLeft: 5 }}>
-                        <Link href="https://github.com/kunaltyagi9" color="inherit" target="_blank"><GitHub /></Link>
-                    </Box>
-                </Text>
-                <Text variant="h5">
-                    Need something built or simply want to have chat? Reach out to me on
-                    <Box component="span" style={{ marginLeft: 5 }}>
-                        <Link href="https://www.instagram.com/codeforinterview/" color="inherit" target="_blank">
-                            <Instagram />
-                        </Link>
-                    </Box>  
-                        or send me an Email 
-                        <Link href="mailto:codeforinterview@gmail.com?Subject=This is a subject" target="_blank" color="inherit">
-                            <Email />
-                        </Link>.
-                </Text>
+                <Typography variant="h3">About Us</Typography>
+                <Typography variant="h5">
+                    We are the students of Wayne State University in the department of computer science. Our team members are Mahbub Khan, Shah Mayan Miah, Aniruddah Pal, Prangon Talukdar, Dhena Begum.
+                </Typography>
+                <Typography variant="h5">
+                    Need something built or simply want to have chat? You can send us an Email 
+                    <Link href="mailto:shahmayanmiah@gmail.com?Subject=This is a subject" target="_blank" color="inherit">
+                        <Email />
+                    </Link>.
+                </Typography>
             </Wrapper>
         </Box>
     )
