@@ -3,7 +3,7 @@ import { Box, styled, Typography, Link } from '@mui/material';
 import { GitHub, Instagram, Email } from '@mui/icons-material';
 
 const Banner = styled(Box)`
-    background-image: url(https://www.wallpapertip.com/wmimgs/23-236943_us-wallpaper-for-website.jpg);
+    background-image: url(https://github.com/shahmayanmiah/pictures/blob/main/wsu.jpg?raw=true);
     width: 100%;
     height: 50vh;
     background-position: left 0px bottom 0px;
@@ -29,13 +29,13 @@ const About = () => {
             <Wrapper>
                 <Typography variant="h3">About Us</Typography>
                 <Typography variant="h5">
-                    We are the students of Wayne State University in the department of computer science. Our team members are Mahbub Khan, Shah Mayan Miah, Aniruddah Pal, Prangon Talukdar, Dhena Begum.
+                    This webite is built by the students of Wayne State University in the department of computer science for academic purpose. Our team members are Mahbub Khan, Shah Mayan Miah, Aniruddah Pal, Prangon Talukdar, Dhena Begum.
                 </Typography>
                 <Typography variant="h5">
-                    Need something built or simply want to have chat? You can send us an Email 
-                    <Link href="mailto:shahmayanmiah@gmail.com?Subject=This is a subject" target="_blank" color="inherit">
-                        <Email />
-                    </Link>.
+                    Want to know more about us! You can send us an Email here  
+                    <Link href="mailto:hg1791@wayne.edu,hj7195@wayne.edu,hm3808@wayne.edu,hq0895@wayne.edu,gq4629@wayne.edu?Subject=This%20is%20a%20subject" target="_blank" color="inherit">
+    <Email />
+</Link>.
                 </Typography>
             </Wrapper>
         </Box>
